@@ -24,6 +24,7 @@ jobs:
     - name: Install pytest manually
       run: |
           pip install pytest
+          pip install flake8
     
     - name: Install dependencies
       run: |
