@@ -1,4 +1,4 @@
-name: Python CI/CD Pipeline
+name: Python CI/CD Pipeline v2
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        pytest
+        python -m pytest
 
     - name: Lint with flake8
       run: |
